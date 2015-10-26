@@ -1,0 +1,25 @@
+{
+  "name": "hello_world",
+  "version": "1.0.0",
+  "description": "Practicing Cucumber Tests",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "cucumber": "^0.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdctenga/cucumber_hello_world.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdctenga/cucumber_hello_world/issues"
+  },
+  "homepage": "https://github.com/mdctenga/cucumber_hello_world"
+}
