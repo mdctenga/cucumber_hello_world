@@ -1,9 +1,10 @@
 Feature: Display feature
-  As a user of cucumber.js
-  I want to have documentation on cucumber
+  As a user of hello_world
+  I want to test that hello world displays on the browser
   So that I can concentrate on building awesome applications
 
   Scenario: Reading documentation
-    Given I am on the Cucumber.js GitHub repository
-    When I go to the README file
-    Then I should see "Usage" as the page title
+    Given I am on the hello_world example project
+    When I run nodemon
+    Then I should see "Hello World"
+    And I should see cucumber test passing in my terminal
